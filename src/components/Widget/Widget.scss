@@ -1,0 +1,14 @@
+.widget {
+  width: 30em;
+  max-width: 96%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 32px;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+  text-align: center;
+
+  &-content {
+    margin-bottom: 2rem;
+    font-size: 1.5em;
+  }
+}

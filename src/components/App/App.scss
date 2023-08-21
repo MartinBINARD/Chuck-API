@@ -1,0 +1,19 @@
+@use '../../styles/variables' as v;
+
+.App {
+	text-align: center;
+	background-color: v.$color-bg;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Courier New', Courier, monospace;
+
+	&-logo {
+		height: 30vmin;
+	}
+
+	&-link {
+		color: v.$color-primary;
+	}
+}
