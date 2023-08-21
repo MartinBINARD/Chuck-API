@@ -1,5 +1,6 @@
 import chuck from '../../assets/chuck.svg';
 import Widget from '../Widget/Widget';
+
 import './App.scss';
 
 function App() {

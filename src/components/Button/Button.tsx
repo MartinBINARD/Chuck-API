@@ -1,8 +1,12 @@
 import './Button.scss';
 
-function Button() {
+interface ButtonProps {
+  fetchJoke: () => Promise<void>;
+}
+
+function Button({ fetchJoke }: ButtonProps) {
   return (
-    <button type="button" className="button">
+    <button type="button" className="button" onClick={fetchJoke}>
       NEW JOKE
     </button>
   );
